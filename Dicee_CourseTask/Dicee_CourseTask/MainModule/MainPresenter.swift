@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainPresenter: MainOutput {
+final class MainPresenter: MainOutput {
     
     weak var view: MainInput?
     var model: Dice

@@ -22,6 +22,7 @@
 		D0A72E3B290FA06B00CF6CEF /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72E3A290FA06B00CF6CEF /* Assembly.swift */; };
 		D0A9700A290FE21E00FA6697 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A97009290FE21E00FA6697 /* Constants.swift */; };
 		D0A9700D290FFAC200FA6697 /* MainPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9700C290FFAC200FA6697 /* MainPresenterTest.swift */; };
+		D0A97011291008C600FA6697 /* dicee_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A97010291008C500FA6697 /* dicee_screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		D0A72E3A290FA06B00CF6CEF /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
 		D0A97009290FE21E00FA6697 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D0A9700C290FFAC200FA6697 /* MainPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTest.swift; sourceTree = "<group>"; };
+		D0A97010291008C500FA6697 /* dicee_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dicee_screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		D0A72DF4290E8B0C00CF6CEF = {
 			isa = PBXGroup;
 			children = (
+				D0A9700F291008A400FA6697 /* ScreenShots */,
 				D0A72DFF290E8B0C00CF6CEF /* Dicee_CourseTask */,
 				D0A72E16290E8B1100CF6CEF /* Dicee_CourseTaskTests */,
 				D0A72E20290E8B1100CF6CEF /* Dicee_CourseTaskUITests */,
@@ -159,6 +162,14 @@
 				D0A9700C290FFAC200FA6697 /* MainPresenterTest.swift */,
 			);
 			path = TestMainModule;
+			sourceTree = "<group>";
+		};
+		D0A9700F291008A400FA6697 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				D0A97010291008C500FA6697 /* dicee_screenshot.png */,
+			);
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			files = (
 				D0A72E0D290E8B1000CF6CEF /* LaunchScreen.storyboard in Resources */,
 				D0A72E33290E912F00CF6CEF /* MainViewController.xib in Resources */,
+				D0A97011291008C600FA6697 /* dicee_screenshot.png in Resources */,
 				D0A72E0A290E8B1000CF6CEF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

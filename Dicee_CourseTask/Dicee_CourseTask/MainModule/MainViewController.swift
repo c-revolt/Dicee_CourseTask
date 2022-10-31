@@ -28,10 +28,7 @@ class MainViewController: UIViewController {
     private func setupUI(){
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
-        
     }
-    
-    
 }
 
 extension MainViewController: MainInput {
